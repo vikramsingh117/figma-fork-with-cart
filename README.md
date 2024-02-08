@@ -37,7 +37,7 @@ This project was created by following the JavaScript Master channel's tutorial. 
 
 ## Credits
 
-- JavaScript Master channel: [YouTube](https://www.youtube.com/watch?v=oKIThIihv60)
+- `JavaScript Mastery` channel: [YouTube](https://www.youtube.com/watch?v=oKIThIihv60)
 
 ## Purpose
 
