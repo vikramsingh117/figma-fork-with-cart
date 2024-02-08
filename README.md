@@ -6,11 +6,14 @@ This project is a simplified Figma clone that focuses on real-time collaboration
 
 ## Tutorial Source
 
-This project was created by following the JavaScript Master channel's tutorial. The tutorial can be found [here](https://www.youtube.com/watch?v=oKIThIihv60). A big thanks to the JavaScript Master channel for providing valuable insights and guidance throughout the development process.
+This project was created by following the JavaScript Master channel's tutorial. The tutorial can be found [here](https://www.youtube.com/watch?v=oKIThIihv60). A big thanks to the JavaScript Mastery channel for providing valuable insights and guidance throughout the development process.
 
 ## Technologies Used
 
-- JavaScript
+- NextJS
+- Tailwind
+- Fabric.js
+- Shadcn
 - LiveBlocks for real-time collaboration
 
 ## Features
@@ -23,13 +26,14 @@ This project was created by following the JavaScript Master channel's tutorial. 
 - Adding text
 - Free drawing mode
 - Color customization
-- Exporting screen/design as PDF
+- Exporting design as PDF
 
 ## How to Run
 
 1. Clone the repository.
 2. Open the project in your preferred code editor.
-3. Follow the tutorial instructions for setting up and running the application.
+3. Create a `.env.local` in main directory. Create your account on `LiveBlocks` and copy paste the API key.
+4. write command `npm run dev` in terminal.
 
 ## Credits
 
