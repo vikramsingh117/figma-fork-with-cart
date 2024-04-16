@@ -34,7 +34,6 @@ This project was created by following the JavaScript Master channel's tutorial. 
 2. Open the project in your preferred code editor.
 3. Create a `.env.local` in main directory. Create your account on `LiveBlocks` and copy paste the API key.
 4. write command `npm run dev` in terminal.
-
 ## Credits
 
 - `JavaScript Mastery` channel: [YouTube](https://www.youtube.com/watch?v=oKIThIihv60)
