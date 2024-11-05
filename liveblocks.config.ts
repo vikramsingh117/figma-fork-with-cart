@@ -1,11 +1,23 @@
-import { LiveMap, createClient } from "@liveblocks/client";
+import { LiveMap, createClient, IUserInfo, ResolveUsersArgs } from "@liveblocks/client";
 import { createRoomContext } from "@liveblocks/react";
 
 const client = createClient({
   throttle: 16,
-  publicApiKey: process.env.NEXT_PUBLIC_LIVEBLOCKS_PUBLIC_KEY!,
-});
+  publicApiKey: "pk_prod_IjyDx_DJkuPGsDZdFPR1MrDKgxxbFKq9P4nTeZwJdS6PUUkD-YCsn1UwHqpUYODS",
+  
+  resolveUsers: async ({ userIds }: ResolveUsersArgs) => {
+    // Example: You may have some logic to fetch user data from an API or database
+    // Here we're just returning a mock user object
 
+    // Mock response
+    const users: IUserInfo[] = userIds.map(userId => ({
+      userId,
+      name: `User ${userId}`, // Just an example, you can customize this
+    }));
+
+    return users; // Return an array of user objects
+  },
+});
 type Presence = {};
 
 type Storage = {
